@@ -1,0 +1,44 @@
+
+.clients .section-title{
+    margin-bottom: 50px;
+  }
+  .clients-list{
+    display: flex;
+    
+  }
+  .clients-item{
+    height: 92px;
+    width: 170px; 
+    &:not(:last-child){
+      margin-right: 30px;
+    }   
+  }
+  
+  .clients-link{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     &:hover,
+  &:focus{
+    border: 1px solid var(--accent-color);
+  }
+  &:hover .clients-icon,
+  &:focus .clients-icon{
+    fill:var(--accent-color);
+    
+  }
+  }
+ .clients-icon {
+    height: 60px;
+    width: 106px;
+    align-self: center;
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  

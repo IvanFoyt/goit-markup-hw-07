@@ -1,0 +1,58 @@
+
+.tasks {
+    text-align: center;
+  }
+  .tasks img {
+    display: block;
+  }
+  
+  .tasks .list {
+    display: flex;
+  }
+  
+  .tasks .list-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  
+  .tasks .list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-text-color);
+  
+    margin-bottom: 50px;
+    text-align: center;
+  }  
+  
+ 
+  
+  
+  .thumb {
+    position: relative;
+  }
+  
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    font-weight: 700;
+  
+  }
+  
+  .tasks-image {
+    display: block;
+    width: 100%;
+  }
